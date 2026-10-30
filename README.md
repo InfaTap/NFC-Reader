@@ -114,3 +114,7 @@ Follow the steps in [Run this project](#run-this-project) above.
 | Crash on Android 12+ creating `PendingIntent` | Missing mutability flag | Use `PendingIntent.FLAG_MUTABLE`. |
 | Nothing happens in the emulator | The emulator has no NFC hardware | Test on a real phone. |
 | "(no NDEF data)" | Tag is blank or not NDEF-formatted | Expected. The ID and tech types still show. |
+
+## License
+
+Copyright (c) 2026 InfaTap. Released under the [MIT License](LICENSE): free to use, modify and distribute, including commercially, as long as the copyright notice is kept.
